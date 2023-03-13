@@ -1,0 +1,2068 @@
+.content {
+    margin-left: 120px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.content .con1,
+.con2,
+.con3 {
+    margin-top: 10px;
+}
+
+
+/* .con1 {
+    background-color: aquamarine;
+}
+
+.con2 {
+    background-color: bisque;
+}
+
+.con3 {
+    background-color: blanchedalmond;
+} */
+
+.title-tk {
+    color: rgb(228, 208, 119);
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.con2-row div {
+    display: inline-table;
+    color: rgb(228, 208, 119);
+    font-size: 18px;
+}
+
+.tk-makh-input input {
+    width: 100px;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.tk-gtkh-input select {
+    width: 100px;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 20px;
+}
+
+.con3-row div {
+    display: inline-table;
+    color: rgb(228, 208, 119);
+    font-size: 18px;
+}
+
+.tk-hotenkh-input input {
+    width: 300px;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.bttimkiem {
+    margin-left: 30px;
+}
+
+.bttimkiem input {
+    outline: none;
+    background-color: rgb(228, 208, 119);
+    color: black;
+    border-radius: 5px;
+}
+
+.bttimkiem input:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+    cursor: pointer;
+}
+
+.btthem img {
+    width: 40px;
+    height: 40px;
+}
+
+.con2-row .btthem:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.con4 {
+    border-top: solid 1px white;
+    margin-top: 20px;
+}
+
+.con4 div {
+    color: rgb(228, 208, 119);
+    text-align: center;
+    font-size: 18px;
+    /* background-color: aqua; */
+}
+
+.con5 {
+    border: solid 1px rgb(228, 208, 119);
+    margin-top: 30px;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.con5 div {
+    /* color: rgb(228, 208, 119); */
+    color: deepskyblue;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.con5:hover {
+    background-color: rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+.ctkh {
+    background-color: rgb(36, 36, 36);
+    position: fixed;
+    height: 530px;
+    width: 400px;
+    top: 60px;
+    left: 450px;
+    border: solid 1px rgb(228, 208, 119);
+    border-radius: 5px;
+    display: none;
+}
+
+.ctkh .ctkh-makh,
+.ctkh-hokh,
+.ctkh-tenkh,
+.ctkh-dtkh,
+.ctkh-ngaysinhkh,
+.ctkh-gtkh,
+.ctkh-dckh,
+.ctkh-emailkh {
+    margin-top: 20px;
+    color: rgb(228, 208, 119);
+    margin-left: 5px;
+}
+
+.exit {
+    margin-top: 20px;
+    margin-left: 350px;
+    color: rgb(228, 208, 119);
+}
+
+.exit:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.ctkh input {
+    border-radius: 5px;
+    width: 180px;
+    text-align: center;
+    outline: none;
+}
+
+.ctkh-gtkh select {
+    border-radius: 5px;
+    width: 100px;
+    outline: none;
+}
+
+.ctkh-dckh textarea {
+    width: 180px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.ctkh-button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.ctkh-button input {
+    width: 100px;
+    background-color: rgb(228, 208, 119);
+    color: black;
+    outline: none;
+}
+
+.ctkh-button input:hover {
+    background-color: rgb(100, 100, 100);
+}
+
+.con6 {
+    margin-top: 50px;
+    /* width: 90%; */
+    text-align: center;
+}
+
+.con6-row div {
+    display: inline-table;
+    color: rgb(228, 208, 119);
+    border: solid 1px white;
+    width: 20px;
+    background-color: rgb(100, 100, 100);
+    margin-left: 3px;
+}
+
+.con6-row div:hover {
+    background-color: aquamarine;
+    color: black;
+    cursor: pointer;
+}
+
+@media (max-width:990px) {
+    .ctkh {
+        left: 250px;
+    }
+}
+
+@media (max-width:770px) {
+    .ctkh {
+        left: 150px;
+    }
+    .con5 {
+        height: 120px;
+    }
+    .con6 {
+        top: 1450px;
+    }
+}
+
+@media (max-width:578px) {
+    .ctkh {
+        overflow: scroll;
+        top: 30px;
+        left: 100px;
+        height: 600px;
+    }
+    .con5 {
+        height: 200px;
+    }
+    .con6 {
+        top: 1900px;
+    }
+}
+
+.sanpham {
+    margin-left: 120px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.sanpham .title-sp {
+    color: rgb(228, 208, 119);
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.sanpham .row div {
+    display: inline-table;
+    color: rgb(228, 208, 119);
+    margin-top: 10px;
+}
+
+.sanpham input,
+select {
+    margin-left: 20px;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+}
+
+#bt-tksp {
+    background-color: rgb(228, 208, 119);
+    color: black;
+}
+
+#bt-tksp:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+}
+
+.btthemsp img {
+    width: 40px;
+    height: 40px;
+}
+
+.btthemsp img:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.hienthisanpham {
+    margin-left: 120px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.sp-con1 {
+    border-top: solid 1px rgb(228, 208, 119);
+}
+
+.sp-con1 div {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(228, 208, 119);
+}
+
+.sp-con2 {
+    margin-top: 30px;
+    border: solid 1px rgb(228, 208, 119);
+    border-radius: 5px;
+}
+
+.sp-con2:hover {
+    background-color: rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+.sp-con2 div {
+    text-align: center;
+    color: deepskyblue;
+}
+
+.sp-con2 img {
+    width: 100px;
+    height: 100px;
+}
+
+.sp-con21 {
+    margin-top: 40px;
+}
+
+.sp-con3 {
+    text-align: center;
+    margin-top: 30px;
+    height: 50px;
+}
+
+.sp-con31 a {
+    text-decoration: none;
+    color: white;
+}
+
+.sp-con31 div {
+    display: inline-table;
+    width: 30px;
+    border: solid 1px rgb(228, 208, 119);
+    margin-left: 3px;
+}
+
+.sp-con31 div:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+    color: black;
+}
+
+.xemsp {
+    text-decoration: none;
+}
+
+.them1sp {
+    background-color: rgb(36, 36, 36);
+    position: fixed;
+    width: 500px;
+    height: 450px;
+    top: 120px;
+    left: 300px;
+    border: solid 1px rgb(228, 208, 119);
+    border-radius: 5px;
+}
+
+.them1sp .row div {
+    color: rgb(228, 208, 119);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.them1sp .row input,
+textarea {
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+}
+
+.tatthemsp a {
+    text-decoration: none;
+    color: rgb(228, 208, 119);
+    margin-left: 450px;
+}
+
+.tatthemsp a :hover {
+    color: red;
+}
+
+#form-btthem {
+    background-color: rgb(228, 208, 119);
+}
+
+#form-btthem:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+}
+
+#form-btsua,
+#form-btxoa {
+    background-color: rgb(228, 208, 119);
+    width: 80px;
+}
+
+#form-btsua:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+}
+
+#form-btxoa:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+}
+
+.loaihang a {
+    background-color: rgb(228, 208, 119);
+    text-align: center;
+    margin-left: 30px;
+    border: solid 1px black;
+    border-radius: 5px;
+    display: inline-table;
+    color: black;
+    text-decoration: none;
+}
+
+.loaihang a:hover {
+    background-color: rgb(100, 100, 100);
+    cursor: pointer;
+    color: rgb(228, 208, 119);
+}
+
+.loaisp {
+    background-color: rgb(36, 36, 36);
+    position: fixed;
+    height: 400px;
+    width: 500px;
+    top: 120px;
+    left: 400px;
+    border: solid 1px rgb(228, 208, 119);
+    border-radius: 5px;
+}
+
+.loaisp .row {
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(228, 208, 119);
+}
+
+.tatloaisp {
+    margin-left: 430px;
+}
+
+.tatloaisp a {
+    text-decoration: none;
+    color: rgb(228, 208, 119);
+}
+
+.tatloaisp a:hover {
+    color: red;
+}
+
+.titleloaisp div {
+    font-size: 20px;
+}
+
+.loaisp input {
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+}
+
+.bangloaisp td {
+    border: solid 1px black;
+}
+
+.bangloaisp {
+    margin-top: 30px;
+    overflow: auto;
+    height: 170px;
+    width: 470px;
+}
+
+.bangloaisp .row {
+    margin-top: 0px;
+}
+
+.bangloai1 .chucnang div {
+    display: inline-table;
+    margin-left: 5px;
+    color: aquamarine;
+}
+
+.bangloai1 .chucnang div:hover {
+    color: chartreuse;
+    cursor: pointer;
+}
+
+#btthemloai {
+    background-color: rgb(228, 208, 119);
+    color: black;
+}
+
+#btthemloai:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+}
+
+#btthemhang {
+    background-color: rgb(228, 208, 119);
+    color: black;
+}
+
+#btthemhang:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+}
+
+.hoadon {
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.hoadon .hdthongke a {
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    background-color: rgb(228, 208, 119);
+    margin-left: 20px;
+    text-align: center;
+}
+
+.hoadon .hdthongke a:hover {
+    color: rgb(228, 208, 119);
+    background-color: rgb(100, 100, 100);
+}
+
+.titlehd div {
+    color: rgb(228, 208, 119);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.mahdkhnv div {
+    color: rgb(228, 208, 119);
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.mahdkhnv input {
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+}
+
+.tungaydenngay div {
+    color: rgb(228, 208, 119);
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#bttkhd {
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(228, 208, 119);
+}
+
+#bttkhd:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+    cursor: pointer;
+}
+
+.titlehienhd {
+    color: rgb(228, 208, 119);
+    margin-top: 30px;
+    text-align: center;
+    border-top: solid 1px white;
+}
+
+.hiennhieuhd div {
+    margin-top: 10px;
+}
+
+.hiennhieuhd {
+    margin-top: 20px;
+    color: deepskyblue;
+    text-align: center;
+    border: solid 1px rgb(228, 208, 119);
+    height: 50px;
+    border-radius: 5px;
+}
+
+.hiennhieuhd:hover {
+    background-color: rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+.xemchitiethd {
+    background-color: rgb(36, 36, 36);
+    position: fixed;
+    height: 500px;
+    width: 700px;
+    top: 80px;
+    left: 300px;
+    border: solid 1px rgb(228, 208, 119);
+    border-radius: 5px;
+    display: none;
+}
+
+.tatcthd {
+    color: rgb(228, 208, 119);
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.tatcthd div {
+    margin-left: 650px;
+}
+
+.tatcthd div:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.ctma div {
+    color: rgb(228, 208, 119);
+    margin-top: 30px;
+}
+
+.ctma span {
+    color: deepskyblue;
+    font-weight: bold;
+}
+
+.ctma1 div {
+    color: rgb(228, 208, 119);
+    margin-top: 30px;
+}
+
+.ctma1 span {
+    color: deepskyblue;
+    margin-left: 43px;
+    font-weight: bold;
+}
+
+.ctma2 div {
+    color: rgb(228, 208, 119);
+    margin-top: 30px;
+}
+
+.ctma2 span {
+    color: deepskyblue;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.ctma3 textarea {
+    background-color: rgb(36, 36, 36);
+    color: deepskyblue;
+    border: solid 1px rgb(228, 208, 119);
+    border-radius: 5px;
+}
+
+.ctma3 textarea::-webkit-scrollbar {
+    width: 6px;
+    height: 3px;
+    background-color: rgb(100, 100, 100);
+}
+
+.ctma3 textarea::-webkit-scrollbar-thumb {
+    background-color: rgb(228, 208, 119);
+}
+
+.ctma3 div {
+    color: rgb(228, 208, 119);
+    margin-top: 30px;
+}
+
+.ctma3 span {
+    color: deepskyblue;
+    margin-left: 47px;
+    font-weight: bold;
+}
+
+#ttcthd {
+    color: aquamarine;
+}
+
+.ctma4 {
+    margin-top: 20px;
+    border-bottom: solid 1px rgb(228, 208, 119);
+}
+
+.ctma4 div {
+    color: rgb(228, 208, 119);
+    text-align: center;
+}
+
+.ctma5 {
+    margin-top: 10px;
+}
+
+.ctma5 div {
+    color: deepskyblue;
+    text-align: center;
+}
+
+#hiencthd {
+    height: 100px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#hiencthd::-webkit-scrollbar {
+    width: 6px;
+    height: 3px;
+    background-color: rgb(100, 100, 100);
+}
+
+#hiencthd::-webkit-scrollbar-thumb {
+    background-color: rgb(228, 208, 119);
+}
+
+.ctma6 div {
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ctma6 input {
+    background-color: rgb(228, 208, 119);
+    border-radius: 5px;
+    /* width: 200px; */
+}
+
+.ctma6 input:hover {
+    background-color: rgb(100, 100, 100);
+    cursor: pointer;
+    color: rgb(228, 208, 119);
+    /* width: 200px; */
+}
+
+.m1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.pthd div {
+    color: rgb(228, 208, 119);
+    border: solid 1px white;
+    background-color: rgb(100, 100, 100);
+    display: inline-table;
+    width: 20px;
+    margin-left: 3px;
+}
+
+.pthd div:hover {
+    color: black;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.titlethongke {
+    color: rgb(228, 208, 119);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.kieuthongke {
+    color: black;
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.kieuthongke div {
+    margin-left: 20px;
+    background-color: rgb(228, 208, 119);
+    border-radius: 5px;
+}
+
+.kieuthongke div:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+    cursor: pointer;
+}
+
+.contk1 div {
+    color: rgb(228, 208, 119);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#thongkeloai {
+    width: 100%;
+    margin-left: 0px;
+}
+
+#tkkieu1 {
+    background-color: rgb(228, 208, 119);
+}
+
+#tkkieu1:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+}
+
+.contk1 input {
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+}
+
+.contk2 {
+    color: rgb(228, 208, 119);
+    text-align: center;
+    margin-top: 30px;
+    border-top: solid 1px white;
+}
+
+#hienhdthongke1 {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 300px;
+}
+
+#hienhdthongke1::-webkit-scrollbar {
+    width: 6px;
+    height: 3px;
+    background-color: rgb(100, 100, 100);
+}
+
+#hienhdthongke1::-webkit-scrollbar-thumb {
+    background-color: rgb(228, 208, 119);
+}
+
+.contk3 {
+    color: deepskyblue;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.tongtientk {
+    color: rgb(228, 208, 119);
+    margin-top: 20px;
+}
+
+#tkkieu2 {
+    background-color: rgb(228, 208, 119);
+}
+
+#tkkieu2:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+}
+
+#tkkieu3 {
+    background-color: rgb(228, 208, 119);
+}
+
+#tkkieu3:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+}
+
+#sapxephd:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.phieunhaphang {
+    margin-left: 120px;
+}
+
+.titlepn {
+    color: rgb(228, 208, 119);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mapnncc {
+    color: rgb(228, 208, 119);
+    margin-top: 20px;
+}
+
+#themmancc {
+    margin-left: 0px;
+    width: 100px;
+}
+
+#themmapn {
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+}
+
+#thempn {
+    margin-left: 30px;
+    background-color: rgb(228, 208, 119);
+    border-radius: 5px;
+    width: 80px;
+}
+
+#thempn:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+}
+
+#tkpn {
+    margin-left: 30px;
+    background-color: rgb(228, 208, 119);
+    border-radius: 5px;
+}
+
+#tkpn:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+}
+
+.pn1 {
+    color: rgb(228, 208, 119);
+    text-align: center;
+    margin-top: 30px;
+    border-top: solid 1px white;
+}
+
+.pn2 {
+    color: deepskyblue;
+    margin-top: 20px;
+    border: solid 1px rgb(228, 208, 119);
+    text-align: center;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.pn2 div {
+    margin-top: 10px;
+}
+
+.pn2:hover {
+    cursor: pointer;
+    background-color: rgb(100, 100, 100);
+}
+
+.row-ptpn {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.ptpn div {
+    color: rgb(228, 208, 119);
+    background-color: rgb(100, 100, 100);
+    display: inline-table;
+    width: 20px;
+    text-align: center;
+    border: solid 1px white;
+    margin-left: 3px;
+}
+
+.ptpn div:hover {
+    color: black;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+#hienpn a {
+    text-decoration: none;
+}
+
+.xemctpn1 {
+    background-color: rgb(36, 36, 36);
+    border: solid 1px rgb(228, 208, 119);
+    border-radius: 5px;
+    position: fixed;
+    top: 80px;
+    left: 300px;
+    width: 600px;
+    height: 500px;
+}
+
+.ctpn0 {
+    margin-top: 20px;
+}
+
+.ctpn0 a {
+    text-decoration: none;
+    margin-left: 550px;
+    color: rgb(228, 208, 119);
+}
+
+.ctpn0 a:hover {
+    color: red;
+}
+
+.ctpn1 {
+    color: rgb(228, 208, 119);
+    margin-top: 20px;
+}
+
+#suancc {
+    margin-left: 0px;
+    width: 100px;
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+}
+
+.xemctpn1 span {
+    color: deepskyblue;
+}
+
+#suapn1 {
+    border-radius: 5px;
+    background-color: rgb(228, 208, 119);
+    margin-left: 30px;
+}
+
+#suapn1:hover {
+    color: rgb(228, 208, 119);
+    background-color: rgb(100, 100, 100);
+}
+
+#xoapn1 {
+    border-radius: 5px;
+    background-color: rgb(228, 208, 119);
+    margin-left: 30px;
+}
+
+#xoapn1:hover {
+    color: rgb(228, 208, 119);
+    background-color: rgb(100, 100, 100);
+}
+
+.ctpn2 {
+    margin-top: 20px;
+    color: rgb(228, 208, 119);
+    border-top: solid 1px white;
+}
+
+#them-ctpn {
+    background-color: rgb(228, 208, 119);
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+#them-ctpn:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+}
+
+#themmactpn1 {
+    margin-top: 5px;
+    margin-left: 0px;
+    width: 100px;
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+}
+
+.ctpn3 {
+    margin-top: 20px;
+    color: rgb(228, 208, 119);
+}
+
+.ctpn3 input {
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+}
+
+#themslctpn1 {
+    width: 80px;
+}
+
+#themgiactpn1 {
+    width: 120px;
+}
+
+.ctpn4 {
+    color: rgb(228, 208, 119);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ctpn5 {
+    color: deepskyblue;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.chucnangctpn div {
+    display: inline-table;
+    color: aquamarine;
+    margin-left: 5px;
+}
+
+.chucnangctpn div:hover {
+    cursor: pointer;
+    color: greenyellow;
+}
+
+#hienctpn1 {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 580px;
+    height: 150px;
+}
+
+#hienctpn1::-webkit-scrollbar {
+    width: 6px;
+    height: 20px;
+    background-color: rgb(100, 100, 100);
+}
+
+#hienctpn1::-webkit-scrollbar-thumb {
+    background-color: rgb(228, 208, 119);
+}
+
+.ncc {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.ncc a {
+    color: black;
+    background-color: rgb(228, 208, 119);
+    text-decoration: none;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.ncc a:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+}
+
+.nhacungcap {
+    background-color: rgb(36, 36, 36);
+    border: solid 1px rgb(228, 208, 119);
+    border-radius: 5px;
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    top: 120px;
+    left: 300px;
+}
+
+.titlencc {
+    color: rgb(228, 208, 119);
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.tatncc {
+    margin-top: 20px;
+}
+
+.tatncc a {
+    color: rgb(228, 208, 119);
+    text-decoration: none;
+    margin-left: 350px;
+}
+
+.tatncc a:hover {
+    color: red;
+}
+
+.nccrow1 {
+    color: rgb(228, 208, 119);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.nccrow1 input {
+    margin-left: 10px;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+}
+
+#nccbtthem {
+    background-color: rgb(228, 208, 119);
+}
+
+#nccbtthem:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+}
+
+.nccrow2 {
+    color: rgb(228, 208, 119);
+    text-align: center;
+    margin-top: 20px;
+    border-top: solid 1px white;
+}
+
+#hienncc {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 110px;
+    width: 380px;
+}
+
+#hienncc::-webkit-scrollbar {
+    background-color: rgb(100, 100, 100);
+    width: 6px;
+    height: 10px;
+}
+
+#hienncc::-webkit-scrollbar-thumb {
+    background-color: rgb(228, 208, 119);
+}
+
+.nccrow3 {
+    color: deepskyblue;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.chucnangncc div {
+    display: inline-table;
+    margin-left: 5px;
+    color: aquamarine;
+}
+
+.chucnangncc div:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+.taikhoan {
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.menutaikhoan div {
+    color: black;
+    background-color: rgb(228, 208, 119);
+    border-radius: 5px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.menutaikhoan div:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+    cursor: pointer;
+}
+
+.titletk {
+    color: rgb(228, 208, 119);
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.contkh1 {
+    color: rgb(228, 208, 119);
+    margin-top: 20px;
+}
+
+.contkh1 input {
+    margin-left: 20px;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+}
+
+#them-taikhoan {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+#them-taikhoan:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.contkh2 {
+    color: rgb(228, 208, 119);
+    margin-top: 20px;
+}
+
+#tk-quyentk {
+    width: 100px;
+}
+
+#tk-tinhtrangtk {
+    width: 100px;
+}
+
+#tkbttaikhoan {
+    background-color: rgb(228, 208, 119);
+    outline: none;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+#tkbttaikhoan:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+}
+
+.contkh3 {
+    color: rgb(228, 208, 119);
+    text-align: center;
+    margin-top: 30px;
+    border-top: solid 1px white;
+}
+
+.contkh4 {
+    color: deepskyblue;
+    text-align: center;
+    margin-top: 20px;
+    border: solid 1px rgb(228, 208, 119);
+    border-radius: 5px;
+    height: 50px;
+}
+
+.contkh4:hover {
+    background-color: rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+.contkh4 div {
+    margin-top: 10px;
+}
+
+.contkh5 {
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(228, 208, 119);
+}
+
+.pttaikhoan div {
+    display: inline-table;
+    border: solid 1px white;
+    margin-left: 3px;
+    width: 30px;
+}
+
+.pttaikhoan div:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+    color: black;
+}
+
+.chitiettaikhoan {
+    background-color: rgb(36, 36, 36);
+    border: solid 1px rgb(228, 208, 119);
+    border-radius: 5px;
+    position: fixed;
+    width: 400px;
+    height: 480px;
+    top: 80px;
+    left: 400px;
+    display: none;
+}
+
+#tatchitiettk {
+    color: rgb(228, 208, 119);
+    margin-top: 20px;
+    margin-left: 350px;
+    font-size: 18px;
+}
+
+#tatchitiettk:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.cttk1 {
+    color: rgb(228, 208, 119);
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.cttk1 input {
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+}
+
+#them-quyentk {
+    width: 120px;
+}
+
+#them-tinhtrangtk {
+    width: 120px;
+}
+
+.cttk2 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#buttonthemtk {
+    background-color: rgb(228, 208, 119);
+    border-radius: 5px;
+    width: 100px;
+}
+
+#buttonthemtk:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+}
+
+#buttonsuatk {
+    background-color: rgb(228, 208, 119);
+    border-radius: 5px;
+    width: 100px;
+}
+
+#buttonsuatk:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+}
+
+#buttonxoatk {
+    background-color: rgb(228, 208, 119);
+    border-radius: 5px;
+    width: 100px;
+}
+
+#buttonxoatk:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+}
+
+.titlequyentk {
+    color: rgb(228, 208, 119);
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.quyen0 {
+    margin-top: 20px;
+}
+
+.quyen1 {
+    border-top: solid 1px white;
+    margin-top: 30px;
+}
+
+.quyenrow1 {
+    color: rgb(228, 208, 119);
+    text-align: center;
+}
+
+#them-quyen {
+    color: rgb(228, 208, 119);
+    text-align: center;
+}
+
+#them-quyen:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+    color: black;
+}
+
+#hienquyen {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 200px;
+    /* border-bottom: solid 1px white; */
+}
+
+#hienquyen::-webkit-scrollbar {
+    background-color: rgb(100, 100, 100);
+    width: 4px;
+    height: 10px;
+}
+
+#hienquyen::-webkit-scrollbar-thumb {
+    background-color: rgb(228, 208, 119);
+}
+
+.quyenrow2 {
+    text-align: center;
+    margin-top: 10px;
+    color: deepskyblue;
+}
+
+.quyenrow2:hover {
+    background-color: rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+.quyen4 {
+    color: rgb(228, 208, 119);
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.quyen5 {
+    color: rgb(228, 208, 119);
+    margin-top: 30px;
+}
+
+.quyen5 input {
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+}
+
+.quyen6 {
+    color: rgb(228, 208, 119);
+    margin-top: 20px;
+}
+
+.chucnang1 {
+    margin-top: 10px;
+}
+
+.quyen7 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.quyen7 input {
+    width: 100px;
+    background-color: rgb(228, 208, 119);
+    border-radius: 5px;
+    outline: none;
+}
+
+.quyen7 input:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+}
+
+.phieubaohanh {
+    margin-left: 120px;
+}
+
+.titlepbh {
+    color: rgb(228, 208, 119);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.conbh1 {
+    color: rgb(228, 208, 119);
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.conbh1 input {
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    margin-left: 20px;
+}
+
+#bttkbh {
+    background-color: rgb(228, 208, 119);
+    border-radius: 5px;
+    outline: none;
+}
+
+#bttkbh:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+}
+
+.conbh2 {
+    color: rgb(228, 208, 119);
+    text-align: center;
+    margin-top: 30px;
+    border-top: solid 1px white;
+}
+
+.conbh3 {
+    color: deepskyblue;
+    margin-top: 20px;
+    border: solid 1px rgb(228, 208, 119);
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.conbh3:hover {
+    background-color: rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+.conbh3 div {
+    margin-top: 10px;
+}
+
+.conbh4 {
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+}
+
+.ptbh div {
+    display: inline-table;
+    width: 30px;
+    border: solid 1px rgb(228, 208, 119);
+    margin-left: 3px;
+}
+
+.ptbh div:hover {
+    cursor: pointer;
+    background-color: aqua;
+    color: black;
+}
+
+.khuyenmaivaloinhuan {
+    margin-left: 120px;
+}
+
+.menukmln {
+    margin-top: 10px;
+}
+
+.menukmln div {
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: rgb(228, 208, 119);
+}
+
+.menukmln div:hover {
+    background-color: rgb(100, 100, 100);
+    cursor: pointer;
+    color: rgb(228, 208, 119);
+}
+
+.titlekm {
+    color: rgb(228, 208, 119);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.conkm1 {
+    color: rgb(228, 208, 119);
+    margin-top: 30px;
+}
+
+.conkm1 input {
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    margin-left: 10px;
+}
+
+.themkm img {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+.themkm img:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+#bttkkm {
+    background-color: rgb(228, 208, 119);
+    margin-left: 0px;
+}
+
+#bttkkm:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+}
+
+.conkm2 {
+    color: rgb(228, 208, 119);
+    text-align: center;
+    margin-top: 40px;
+    border-top: solid 1px white;
+}
+
+.conkm3 {
+    color: deepskyblue;
+    text-align: center;
+    margin-top: 20px;
+    border: solid 1px rgb(228, 208, 119);
+    height: 50px;
+    border-radius: 5px;
+}
+
+.conkm3:hover {
+    background-color: rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+.conkm3 div {
+    margin-top: 10px;
+}
+
+.conkm4 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.ptkm div {
+    display: inline-table;
+    width: 30px;
+    border: solid 1px rgb(228, 208, 119);
+    margin-left: 3px;
+    color: white;
+}
+
+.ptkm div:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+    color: black;
+}
+
+#xemchitietkm {
+    background-color: rgb(36, 36, 36);
+    border: solid 1px rgb(228, 208, 119);
+    border-radius: 5px;
+    position: fixed;
+    width: 450px;
+    height: 400px;
+    top: 80px;
+    left: 400px;
+    display: none;
+}
+
+.tatchitiet {
+    color: rgb(228, 208, 119);
+    margin-top: 20px;
+}
+
+.tatchitiet div {
+    margin-left: 400px;
+    font-size: 18px;
+}
+
+.tatchitiet div:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.conctkm0 {
+    text-align: center;
+    color: rgb(228, 208, 119);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.conctkm1 {
+    color: rgb(228, 208, 119);
+    margin-top: 30px;
+    text-align: center;
+}
+
+.conctkm1 input {
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+}
+
+.conctkm4 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.conctkm4 input {
+    background-color: rgb(228, 208, 119);
+    border-radius: 5px;
+    outline: none;
+    width: 100px;
+}
+
+.conctkm4 input:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+}
+
+#xemchitietkm1 {
+    background-color: rgb(36, 36, 36);
+    border: solid 1px rgb(228, 208, 119);
+    border-radius: 5px;
+    position: fixed;
+    width: 650px;
+    height: 460px;
+    top: 80px;
+    left: 300px;
+    display: none;
+}
+
+.tatchitiet1 {
+    color: rgb(228, 208, 119);
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.tatchitiet1 div {
+    margin-left: 600px;
+}
+
+.tatchitiet1 div:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.conxemctkm1 {
+    text-align: center;
+    color: rgb(228, 208, 119);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.conxemctkm2 {
+    color: rgb(228, 208, 119);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.conxemctkm2 span {
+    color: deepskyblue;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.conxemctkm2 input {
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.conxemctkm3 {
+    color: rgb(228, 208, 119);
+    margin-top: 20px;
+    text-align: center;
+    height: 50px;
+    border-bottom: solid 1px rgb(228, 208, 119);
+}
+
+.conxemctkm3 span {
+    color: deepskyblue;
+    margin-left: 10px;
+}
+
+.conxemctkm3 input {
+    background-color: rgb(228, 208, 119);
+    width: 100px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.conxemctkm3 input:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+}
+
+.titlectkm {
+    text-align: center;
+    color: rgb(228, 208, 119);
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.conxemctkm4 {
+    color: rgb(228, 208, 119);
+    margin-top: 20px;
+}
+
+#them-maspctkm {
+    margin-left: 0px;
+    width: 100px;
+}
+
+#them-ptkmctkm {
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+    outline: none;
+}
+
+.conxemctkm5 {
+    text-align: center;
+    margin-top: 30px;
+    height: 54px;
+}
+
+.conxemctkm5 input {
+    background-color: rgb(228, 208, 119);
+    border-radius: 5px;
+    width: 80px;
+}
+
+.conxemctkm5 input:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+}
+
+.c1 {
+    border-right: solid 1px rgb(228, 208, 119);
+}
+
+.conxemctkm6 {
+    color: rgb(228, 208, 119);
+    text-align: center;
+    margin-top: 20px;
+}
+
+#hienctkm1 {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 170px;
+}
+
+#hienctkm1::-webkit-scrollbar {
+    background-color: rgb(100, 100, 100);
+    width: 4px;
+    height: 10px;
+}
+
+#hienctkm1::-webkit-scrollbar-thumb {
+    background-color: rgb(228, 208, 119);
+}
+
+.conxemctkm7 {
+    color: deepskyblue;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.chucnangxoactkm div {
+    color: aquamarine;
+}
+
+.chucnangxoactkm div:hover {
+    color: yellowgreen;
+    cursor: pointer;
+}
+
+.titleln {
+    color: rgb(228, 208, 119);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.conln1 {
+    color: rgb(228, 208, 119);
+    margin-top: 20px;
+}
+
+.conln1 input {
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+}
+
+#bttkln {
+    background-color: rgb(228, 208, 119);
+}
+
+#bttkln:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+}
+
+.conln2 {
+    margin-top: 30px;
+    border-top: solid 1px white;
+}
+
+.conln3 {
+    color: rgb(228, 208, 119);
+    text-align: center;
+}
+
+#hienln {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 300px;
+}
+
+#hienln::-webkit-scrollbar {
+    background-color: rgb(100, 100, 100);
+    width: 4px;
+    height: 10px;
+}
+
+#hienln::-webkit-scrollbar-thumb {
+    background-color: rgb(228, 208, 119);
+}
+
+.conln4 {
+    color: deepskyblue;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.conln4:hover {
+    cursor: pointer;
+    background-color: rgb(100, 100, 100);
+}
+
+.conln5 {
+    color: rgb(228, 208, 119);
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.conln6 {
+    margin-top: 30px;
+    color: rgb(228, 208, 119);
+}
+
+.hienmaln {
+    color: deepskyblue;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#hienptln {
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+    outline: none;
+}
+
+.conln7 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#btsualn {
+    background-color: rgb(228, 208, 119);
+    border-radius: 5px;
+    width: 80px;
+    outline: none;
+}
+
+#btsualn:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(228, 208, 119);
+}

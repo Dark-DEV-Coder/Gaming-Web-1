@@ -1,0 +1,73 @@
+.dn {
+    margin-top: 150px;
+    height: 350px;
+    width: 600px;
+    background-color: rgb(100, 100, 100);
+    border-radius: 5px;
+    border: solid 1px rgb(228, 208, 119);
+}
+
+.row-dn {
+    width: 100%;
+    height: 100%;
+    margin-left: 3px;
+}
+
+.logo1 {
+    border-right: solid 1px rgb(228, 208, 119);
+}
+
+.logo1 img {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.user .row {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.user .dnrow1 {
+    margin-top: 50px;
+}
+
+.user .row div {
+    color: rgb(228, 208, 119);
+    text-align: center;
+}
+
+.user input {
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#btlogin {
+    background-color: rgb(228, 208, 119);
+    color: black;
+}
+
+#btlogin:hover {
+    background-color: aquamarine;
+}
+
+.user .dnrow4 a {
+    text-decoration: none;
+    color: rgb(228, 208, 119);
+    text-align: center;
+}
+
+.user .dnrow4 a:hover {
+    color: aquamarine;
+}
+
+.user .dnrow3 .erro {
+    color: red;
+}
+
+#baoloiuser,
+#baoloipass {
+    color: red;
+}

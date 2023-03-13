@@ -1,0 +1,68 @@
+.header {
+    height: 100px;
+    background-color: rgb(120, 120, 120);
+    background-image: radial-gradient(circle farthest-side, rgb(120, 120, 120), rgb(16, 16, 16));
+    border-bottom: solid 1px rgb(228, 208, 119);
+}
+
+.logo img {
+    margin-top: 15px;
+    width: 70px;
+    height: 70px;
+}
+
+
+/* .title {
+    background-color: aqua;
+}
+
+.logo {
+    background-color: beige;
+}
+
+.account {
+    background-color: blueviolet;
+} */
+
+.title h1,
+h2 {
+    margin: auto;
+    text-align: center;
+    color: rgb(228, 208, 119);
+}
+
+.account div {
+    margin-top: 3px;
+    text-align: center;
+    color: white;
+}
+
+.account a {
+    color: white;
+    text-decoration: none;
+}
+
+.account a:hover {
+    color: rgb(228, 208, 119);
+    cursor: pointer;
+}
+
+@media (max-width:990px) {
+    .header {
+        height: 130px;
+    }
+}
+
+@media (max-width:770px) {
+    .header {
+        height: 300px;
+    }
+    .logo,
+    .account,
+    .title {
+        margin-top: 10px;
+    }
+    .logo {
+        text-align: center;
+    }
+}
